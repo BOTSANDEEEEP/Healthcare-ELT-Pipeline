@@ -1,0 +1,25 @@
+# Sensitive healthcare data
+data/
+*.csv
+*.json
+
+# Logs
+logs/
+*.log
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+*password*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
+sql/patients.sql
